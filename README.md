@@ -27,3 +27,8 @@ varchar(n), numeric(p,s) and int. The function could easily be expanded to other
 The main purpose of this is to show some basic usage of EmbeddedSQL and also to illustrate the usage of some more moderately
 complex SQL statements and how they can still be used in this context, as my online searches for examples to help me complete the assignment
 mostly showed smaller basic two line SQL statements. 
+
+ADDED NOTE REGARDING PORT 5434
+
+For connecting to my database, I used port 5434, rather than the standard port 5432, due to having to reinstall PostgreSQL and
+needing to use a different location
